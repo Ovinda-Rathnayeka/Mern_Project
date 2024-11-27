@@ -1,0 +1,109 @@
+/* Login Container */
+#login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('../Images/3658020.jpg') no-repeat center center; /* Replace with your image path */
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Overlay for dimming the background */
+#login-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+  z-index: 1;
+}
+
+/* Login Box */
+#login-box {
+  position: relative;
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.95); /* Semi-transparent white background */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  text-align: center;
+}
+
+#login-box h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #333;
+}
+
+/* Form Group */
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+  border-color: #007bff;
+}
+
+/* Login Button */
+#login-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #007bff;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+#login-button:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Error Message */
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+/* Signup Link */
+#signup-link {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+#signup-link a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+#signup-link a:hover {
+  color: #0056b3;
+}

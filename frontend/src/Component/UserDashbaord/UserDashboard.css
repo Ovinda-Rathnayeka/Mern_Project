@@ -1,0 +1,85 @@
+/* Set a full-page background image */
+body {
+  background-image: url("../Images/3658020.jpg"); /* Replace with the actual image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Make the dashboard container semi-transparent */
+.dashboard-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Semi-transparent border */
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+.dashboard-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* User details styling */
+.user-details {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.detail-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly opaque for better readability */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.detail-label {
+  font-weight: bold;
+  color: #555;
+}
+
+.detail-value {
+  color: #777;
+}
+
+/* Action buttons styling */
+.dashboard-actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.action-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.update-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.update-button:hover {
+  background-color: #45a049;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: #d32f2f;
+}

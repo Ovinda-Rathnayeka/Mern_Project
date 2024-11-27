@@ -1,0 +1,103 @@
+.display-all-container {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0.8); /* White background with 80% opacity */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .users-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly opaque white */
+    border-radius: 8px; /* Rounded corners for the table */
+    overflow: hidden; /* Ensure rounded corners are applied */
+  }
+  
+  .users-table th,
+  .users-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    color: #333; /* Dark text for better readability */
+  }
+  
+  .users-table th {
+    background-color: rgba(0, 123, 255, 0.8); /* Light blue transparent header */
+    color: white; /* White text for the header */
+    font-weight: bold;
+  }
+  
+  .users-table tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.05); /* Light gray background for even rows */
+  }
+  
+  .users-table tr:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Slightly darker gray on hover */
+  }
+  
+  .whatsapp-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .phone-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .send-report-button {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: white;
+    background-color: #25d366; /* WhatsApp green */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .send-report-button:hover {
+    background-color: #1da851;
+  }
+  
+  .loading-message {
+    font-size: 18px;
+    color: #777;
+  }
+  
+  .error-container {
+    color: #d9534f;
+    text-align: center;
+  }
+  
+  .retry-button {
+    padding: 10px 15px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .retry-button:hover {
+    background-color: #0056b3;
+  }
+  

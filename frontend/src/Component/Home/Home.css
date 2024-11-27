@@ -1,0 +1,49 @@
+/* Home Container */
+#home-container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: url('../Images/3658020.jpg') no-repeat center center/cover; /* Replace with your image */
+  overflow: hidden;
+}
+
+/* Hero Section */
+#hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  backdrop-filter: blur(5px) brightness(0.8); /* Transparency effect with blur */
+  color: white;
+}
+
+#hero-section h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#hero-section p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+#hero-button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#hero-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
